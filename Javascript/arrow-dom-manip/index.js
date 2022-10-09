@@ -7,12 +7,13 @@ const greet=(name)=>{
 greet("Harsh")
 
 //DOM Manipulation
-const h1= document.querySelector('#heading')
+const h1= document.querySelector('.heading')
 let color=true
-const button = document.querySelector('#submit')
+const button = document.querySelector('.submit')
 button.addEventListener('click',()=>{
   color = !color
   if(color===true) h1.style.backgroundColor="red"
   else h1.style.backgroundColor="blue"
 })
+
 //DOM Manipulation
