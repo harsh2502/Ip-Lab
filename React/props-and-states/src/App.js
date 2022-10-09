@@ -12,6 +12,7 @@ export default class App extends Component {
       <div>
          <h1>Hello {this.props.greet}</h1> 
         <h1>{`${this.state.name} is ${this.state.age}`}</h1>
+        <button onClick={()=>this.setState({name:"Hello",age:20})}>Submit</button>
       </div>
     )
   }
