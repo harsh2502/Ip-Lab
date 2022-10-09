@@ -30,9 +30,11 @@ console.log(name)
 obj.greet()
 
 obj.setName("Sam")
+
 name=obj.getName()
-obj.greet()
 console.log(name)
+obj.greet()
+
 
 
 
