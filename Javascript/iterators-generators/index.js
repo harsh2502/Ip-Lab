@@ -1,6 +1,30 @@
 //WAP on inheritance,iterators and Generators
 
 //Inheritance
+class Parent{
+  constructor(name){
+    this.name=name
+    console.log("In Parent Constructor")
+  }
+  
+}
+class Child extends Parent{
+  constructor(name){
+    super(name)
+    console.log("In Child Constuctor")
+  }
+  getName(){
+    console.log(`Hello ${this.name}`)
+  }
+  setName(name){
+    this.name=name
+  }
+}
+
+const obj=new Child("Harsh")
+obj.getName()
+obj.setName("Sam")
+obj.getName()
 
 
 
