@@ -6,7 +6,9 @@ class Parent{
     this.name=name
     console.log("In Parent Constructor")
   }
-  
+  greet(){
+    console.log(`Hello ${this.name}`)
+  }
 }
 class Child extends Parent{
   constructor(name){
@@ -14,7 +16,7 @@ class Child extends Parent{
     console.log("In Child Constuctor")
   }
   getName(){
-    console.log(`Hello ${this.name}`)
+    return this.name;
   }
   setName(name){
     this.name=name
@@ -22,9 +24,16 @@ class Child extends Parent{
 }
 
 const obj=new Child("Harsh")
-obj.getName()
+
+let name=obj.getName()
+console.log(name)
+obj.greet()
+
 obj.setName("Sam")
-obj.getName()
+name=obj.getName()
+obj.greet()
+console.log(name)
+
 
 
 
