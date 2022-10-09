@@ -6,7 +6,7 @@ const greet=(name)=>{
 }
 greet("Harsh")
 
-//DOM Manipulation
+//DOM Manipulation with Style
 const h1= document.querySelector('.heading')
 let color=true
 const button = document.querySelector('.submit')
@@ -16,4 +16,15 @@ button.addEventListener('click',()=>{
   else h1.style.backgroundColor="blue"
 })
 
-//DOM Manipulation
+//DOM Selector
+const ul=document.querySelector('ul')
+for(let i=0;i<3;i++)
+{
+  let li=document.createElement('li')
+  li.innerHTML="<b>Hello</b>"
+  ul.append(li)
+}
+
+
+
+
