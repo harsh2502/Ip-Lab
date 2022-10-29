@@ -1,2 +1,10 @@
 Express Generator 
-npx express-generator --view=ejs //For Ejs Version
+1.npx express-generator --view=ejs //For Ejs Version
+2.npm i 
+3.Remove the module.exports on the last line
+4.Add this  
+app.listen(4000,()=>{
+  console.log("Server Up")
+})
+5.node app.js
+6.Go to LocalHost 4000
