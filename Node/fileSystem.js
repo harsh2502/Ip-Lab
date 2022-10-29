@@ -49,4 +49,3 @@ fs.rename('hello.txt','input.txt',()=>{
     console.log("File Renamed Successfully")
 })
 
-// Close
