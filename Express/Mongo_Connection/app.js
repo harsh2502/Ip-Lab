@@ -4,6 +4,12 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+//!Just this much is required
+var mongoose=require('mongoose')
+mongoose.connect('mongodb+srv://harsh:%40Harsh2502@cluster0.pbfqw5x.mongodb.net/test?retryWrites=true&w=majority')
+  .then(()=>{console.log("Database Connected Successfully");})
+
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
