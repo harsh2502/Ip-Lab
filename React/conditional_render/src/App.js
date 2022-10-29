@@ -3,7 +3,6 @@ import React from 'react'
 import Temp from './components/temp'
 function App() {
   const [cond,setCond] =React.useState(true)
-  console.log(cond)
   return (
     <div className="App">
         {cond && <Temp/>}
