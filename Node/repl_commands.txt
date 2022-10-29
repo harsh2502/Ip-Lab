@@ -1,0 +1,22 @@
+node -To enter into repl mode
+
+Variables Declaration
+•If var keyword is not used, then the value is stored in the variable and 
+printed. 
+•Whereas if var keyword is used, then the value is stored but not 
+printed.
+
+.editor-Mutliline mode
+
+_ - To get value of last result
+
+• ctrl + c − terminate the current command.
+• ctrl + c twice − terminate the Node REPL.
+• ctrl + d − terminate the Node REPL.
+• Up/Down Keys − see command history and modify previous commands.
+• tab Keys − list of current commands.
+• .help − list of all commands.
+• .break − exit from multiline expression.
+• .clear − exit from multiline expression.
+• .save filename − save the current Node REPL session to a file.
+• .load filename − load file content in current Node REPL session
