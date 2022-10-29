@@ -21,7 +21,9 @@ rl.question("Enter your Choice 1.Add 2.Subtract 3.Multiply 4.Division ",(choice)
             if(choice==='4'){
                 console.log(`Division: ${n1/n2}`)
             }
+            rl.close()
         })
     })
 })
+
 
